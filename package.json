@@ -1,13 +1,10 @@
 {
-  "name": "ioredis-mock",
+  "name": "@kess-flow/ioredis-mock",
   "description": "This library emulates ioredis by performing all operations in-memory.",
   "license": "MIT",
   "author": "Majik <me@yamajik.com>",
   "homepage": "https://github.com/yamajik/ioredis-mock#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yamajik/ioredis-mock.git"
-  },
+  "repository": "git+https://github.com/yamajik/ioredis-mock.git",
   "bugs": {
     "url": "https://github.com/yamajik/ioredis-mock/issues"
   },
@@ -126,5 +123,5 @@
     ]
   },
   "runkitExampleFilename": "example.js",
-  "version": "v5.2.5"
+  "version": "5.2.6"
 }
