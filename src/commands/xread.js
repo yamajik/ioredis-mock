@@ -57,7 +57,7 @@ export function xread(option, ...args) {
         let timeElapsed = 0;
         const f = () =>
           setTimeout(() => {
-            if (opVal > 0 && timeElapsed < opVal) return resolve(null);
+            if (timeElapsed >= opVal) return resolve(null);
             const events = pollEvents(toPoll, 1);
             if (events.length > 0) return resolve(events);
             timeElapsed += 100;

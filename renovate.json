@@ -1,5 +1,5 @@
 {
   "extends": [
-    "github>stipsan/renovate-presets:auto"
+    "github>yamajik/renovate-presets:auto"
   ]
 }

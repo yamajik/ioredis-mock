@@ -32,7 +32,7 @@
   },
   "sync": {
     "id": "5ae71421ba4783532e6e8252",
-    "name": "stipsan/ioredis-mock",
+    "name": "yamajik/ioredis-mock",
     "useImdoneioForPriority": true
   }
 }
