@@ -1,6 +1,6 @@
 import * as us from "microseconds";
 
-export function xadd(stream, id, ...args) {
+export function xadd(stream, ...args) {
   let maxlen = 0,
     id;
   if (args[0].toUpperCase() === 'MAXLEN') {
