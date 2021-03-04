@@ -106,6 +106,7 @@ export * from './type';
 export * from './unlink';
 export * from './unsubscribe';
 export * from './xadd';
+export * from './xdel';
 export * from './xlen';
 export * from './xrange';
 export * from './xread';
