@@ -125,5 +125,6 @@
       "@semantic-release/npm"
     ]
   },
-  "runkitExampleFilename": "example.js"
+  "runkitExampleFilename": "example.js",
+  "version": "0.0.0"
 }
